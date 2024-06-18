@@ -9,6 +9,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|e:\\godot proj\\3d_attempt_1\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|solutionrelative:scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|e:\\godot proj\\3d_attempt_1\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|solutionrelative:scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|e:\\godot proj\\3d_attempt_1\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|solutionrelative:scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,20 +25,20 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 429,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 1474,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Area3D.cs",
-              "DocumentMoniker": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Area3D.cs",
-              "RelativeDocumentMoniker": "Scripts\\Area3D.cs",
-              "ToolTip": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Area3D.cs",
-              "RelativeToolTip": "Scripts\\Area3D.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Scripts\\Enemy.cs",
+              "ToolTip": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Scripts\\Enemy.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowAcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T00:41:56.648Z",
+              "WhenOpened": "2024-06-18T22:26:04.416Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +49,35 @@
               "RelativeDocumentMoniker": "Scripts\\Player.cs",
               "ToolTip": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Player.cs",
               "RelativeToolTip": "Scripts\\Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAQAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAIwGMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T00:34:24.619Z",
+              "WhenOpened": "2024-06-18T22:25:47.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Area3D.cs",
+              "DocumentMoniker": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Area3D.cs",
+              "RelativeDocumentMoniker": "Scripts\\Area3D.cs",
+              "ToolTip": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Area3D.cs",
+              "RelativeToolTip": "Scripts\\Area3D.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T22:29:15.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gun.cs",
+              "DocumentMoniker": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Gun.cs",
+              "RelativeDocumentMoniker": "Scripts\\Gun.cs",
+              "ToolTip": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Gun.cs",
+              "RelativeToolTip": "Scripts\\Gun.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T17:27:04.174Z",
               "EditorCaption": ""
             }
           ]

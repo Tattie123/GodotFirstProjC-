@@ -1,6 +1,3 @@
-//make area3d only run when input even control is pressed to help performance
-//Make gun shoot
-
 using Godot;
 using System;
 using System.Security.Cryptography.X509Certificates;
@@ -29,8 +26,7 @@ public partial class Player : CharacterBody3D
 		base._Ready();
 		Input.MouseMode = Input.MouseModeEnum.Captured;
 
-		camera = GetNode<Camera3D>("Camera3D"); 
-		GD.Print("test Player.cs");
+		camera = GetNode<Camera3D>("Camera3D");
     }
 
 	public void OnEnter(Node Other)
