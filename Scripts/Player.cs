@@ -1,5 +1,5 @@
 //make area3d only run when input even control is pressed to help performance
-
+//Make gun shoot
 
 using Godot;
 using System;
