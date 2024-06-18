@@ -1,0 +1,9 @@
+res://Scenes/Player.tscn
+res://Levels/TestLevel.tscn
+res://Scenes/Gun.cs
+res://Scripts/Timer.cs
+res://Scripts/Area3D.cs
+res://Scripts/Player.cs
+res://Scripts/Gun.cs
+res://Scenes/bullet.tscn
+res://Scripts/bullet.cs
