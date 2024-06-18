@@ -1,0 +1,6 @@
+res://Scenes/Player.tscn
+res://Levels/TestLevel.tscn
+res://Player.cs
+res://Scenes/Timer.cs
+res://RigidBody3D.cs
+res://Scenes/Area3D.cs

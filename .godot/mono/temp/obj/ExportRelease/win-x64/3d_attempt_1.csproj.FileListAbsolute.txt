@@ -1,0 +1,5 @@
+D:\Godot proj\3d_attempt_1\.godot\mono\temp\obj\ExportRelease\win-x64\3d_attempt_1.csproj.AssemblyReference.cache
+D:\Godot proj\3d_attempt_1\.godot\mono\temp\obj\ExportRelease\win-x64\3d_attempt_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Godot proj\3d_attempt_1\.godot\mono\temp\obj\ExportRelease\win-x64\3d_attempt_1.AssemblyInfoInputs.cache
+D:\Godot proj\3d_attempt_1\.godot\mono\temp\obj\ExportRelease\win-x64\3d_attempt_1.AssemblyInfo.cs
+D:\Godot proj\3d_attempt_1\.godot\mono\temp\obj\ExportRelease\win-x64\3d_attempt_1.csproj.CoreCompileInputs.cache
