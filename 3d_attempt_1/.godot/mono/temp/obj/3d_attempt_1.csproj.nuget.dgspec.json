@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Godot proj\\3d_attempt_1\\3d_attempt_1.csproj": {}
+    "F:\\GitProj\\Test\\3d_attempt_1\\3d_attempt_1.csproj": {}
   },
   "projects": {
-    "E:\\Godot proj\\3d_attempt_1\\3d_attempt_1.csproj": {
+    "F:\\GitProj\\Test\\3d_attempt_1\\3d_attempt_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Godot proj\\3d_attempt_1\\3d_attempt_1.csproj",
+        "projectUniqueName": "F:\\GitProj\\Test\\3d_attempt_1\\3d_attempt_1.csproj",
         "projectName": "3d_attempt_1",
-        "projectPath": "E:\\Godot proj\\3d_attempt_1\\3d_attempt_1.csproj",
+        "projectPath": "F:\\GitProj\\Test\\3d_attempt_1\\3d_attempt_1.csproj",
         "packagesPath": "C:\\Users\\nathan\\.nuget\\packages\\",
-        "outputPath": "E:\\Godot proj\\3d_attempt_1\\.godot\\mono\\temp\\obj\\",
+        "outputPath": "F:\\GitProj\\Test\\3d_attempt_1\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nathan\\AppData\\Roaming\\NuGet\\NuGet.Config",

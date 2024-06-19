@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mSajjcc0fGM=",
+  "dgSpecHash": "hZqX02g9xLg=",
   "success": true,
-  "projectFilePath": "E:\\Godot proj\\3d_attempt_1\\3d_attempt_1.csproj",
+  "projectFilePath": "F:\\GitProj\\Test\\3d_attempt_1\\3d_attempt_1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nathan\\.nuget\\packages\\godot.sourcegenerators\\4.2.2\\godot.sourcegenerators.4.2.2.nupkg.sha512",
     "C:\\Users\\nathan\\.nuget\\packages\\godotsharp\\4.2.2\\godotsharp.4.2.2.nupkg.sha512",
