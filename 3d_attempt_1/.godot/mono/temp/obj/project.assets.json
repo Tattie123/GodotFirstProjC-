@@ -93,11 +93,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\GitProj\\Test\\3d_attempt_1\\3d_attempt_1.csproj",
+      "projectUniqueName": "E:\\GODOT PROJ\\3D_ATTEMPT_1\\3d_attempt_1.csproj",
       "projectName": "3d_attempt_1",
-      "projectPath": "F:\\GitProj\\Test\\3d_attempt_1\\3d_attempt_1.csproj",
+      "projectPath": "E:\\GODOT PROJ\\3D_ATTEMPT_1\\3d_attempt_1.csproj",
       "packagesPath": "C:\\Users\\nathan\\.nuget\\packages\\",
-      "outputPath": "F:\\GitProj\\Test\\3d_attempt_1\\.godot\\mono\\temp\\obj\\",
+      "outputPath": "E:\\GODOT PROJ\\3D_ATTEMPT_1\\.godot\\mono\\temp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nathan\\AppData\\Roaming\\NuGet\\NuGet.Config",

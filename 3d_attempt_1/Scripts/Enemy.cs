@@ -1,5 +1,6 @@
 using Godot;
 using System;
+using System.Security.Cryptography;
 
 public partial class Enemy : CharacterBody3D
 {
@@ -7,13 +8,28 @@ public partial class Enemy : CharacterBody3D
     public float gravity = ProjectSettings.GetSetting("physics/3d/default_gravity").AsSingle();
     private float _movementSpeed = 2.0f;
     private NavigationAgent3D _navigationAgent;
-    private Vector3 _movementTargetPosition = new Vector3(-3.0f, 0.0f, 2.0f);
-
-
+    public Vector3 _movementTargetPosition;
+    float randomFloat1 = GD.RandRange(-10, 10);
+    float randomFloat2 = GD.RandRange(-10, 10);
+    int count = 0;
+    public async void Randomnav()
+    {
+        await ToSignal(GetTree(), SceneTree.SignalName.ProcessFrame);
+        GD.Print(randomFloat1 + " random floats");
+        Vector3 _movementTargetPosition = new Vector3(randomFloat1, 0.0f, randomFloat2);
+        MovementTarget = _movementTargetPosition;
+    }
+    
     public void Shot()
     {
         GD.Print("enemy_hit POW!");
         QueueFree();
+        count++;
+        GD.Print(count);
+        if (count == 2)
+        {
+            GetTree().Quit();
+        }
     }
 
     public Vector3 MovementTarget
@@ -22,17 +38,11 @@ public partial class Enemy : CharacterBody3D
         set { _navigationAgent.TargetPosition = value; }
     }
 
-    private async void ActorSetup()
-    {
-        // Wait for the first physics frame so the NavigationServer can sync.
-        await ToSignal(GetTree(), SceneTree.SignalName.PhysicsFrame);
-
-        // Now that the navigation map is no longer empty, set the movement target.
-        MovementTarget = _movementTargetPosition;
-    }
-
     public override void _Ready()
     {
+
+        GD.Randomize();
+
         base._Ready();
 
         _navigationAgent = GetNode<NavigationAgent3D>("NavigationAgent3D");
@@ -43,7 +53,7 @@ public partial class Enemy : CharacterBody3D
         _navigationAgent.TargetDesiredDistance = 0.5f;
 
         // Make sure to not await during _Ready.
-        Callable.From(ActorSetup).CallDeferred();
+        Randomnav();
     }
 
     public override void _PhysicsProcess(double delta)

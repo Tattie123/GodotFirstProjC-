@@ -1,5 +1,10 @@
-NavigationAgent3D
+Timer
+Node3D
+Node
+PathFollow3D
 MeshInstance3D
+Path3D
+NavigationAgent3D
 NavigationRegion3D
 CollisionPolygon3D
 CollisionShape3D
@@ -8,8 +13,3 @@ CSGMesh3D
 CharacterBody3D
 RigidBody3D
 RayCast3D
-Timer
-AnimationPlayer
-Area3D
-Node2D
-Camera3D

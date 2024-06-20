@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "E:\\Godot proj\\3d_attempt_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|e:\\godot proj\\3d_attempt_1\\scripts\\area3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|solutionrelative:scripts\\area3d.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|e:\\godot proj\\3d_attempt_1\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|solutionrelative:scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|e:\\godot proj\\3d_attempt_1\\scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|solutionrelative:scripts\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|e:\\godot proj\\3d_attempt_1\\levels\\testlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|solutionrelative:levels\\testlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F5F3337-9BA7-4266-9D64-C0E1AB6F0DAD}|3d_attempt_1.csproj|e:\\godot proj\\3d_attempt_1\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,58 +22,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1474,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Enemy.cs",
-              "RelativeDocumentMoniker": "Scripts\\Enemy.cs",
-              "ToolTip": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Enemy.cs",
-              "RelativeToolTip": "Scripts\\Enemy.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowAcAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T22:26:04.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Player.cs",
-              "RelativeDocumentMoniker": "Scripts\\Player.cs",
-              "ToolTip": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Player.cs",
-              "RelativeToolTip": "Scripts\\Player.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAIwGMAAAAAAAAA",
+              "Title": "TestLevel.cs",
+              "DocumentMoniker": "E:\\Godot proj\\3d_attempt_1\\Levels\\TestLevel.cs",
+              "RelativeDocumentMoniker": "Levels\\TestLevel.cs",
+              "ToolTip": "E:\\Godot proj\\3d_attempt_1\\Levels\\TestLevel.cs",
+              "RelativeToolTip": "Levels\\TestLevel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T22:25:47.16Z",
+              "WhenOpened": "2024-06-19T17:50:28.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Area3D.cs",
-              "DocumentMoniker": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Area3D.cs",
-              "RelativeDocumentMoniker": "Scripts\\Area3D.cs",
-              "ToolTip": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Area3D.cs",
-              "RelativeToolTip": "Scripts\\Area3D.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Enemy.cs",
+              "RelativeDocumentMoniker": "Scripts\\Enemy.cs",
+              "ToolTip": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Enemy.cs",
+              "RelativeToolTip": "Scripts\\Enemy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T22:29:15.36Z",
+              "WhenOpened": "2024-06-19T17:18:08.91Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1474,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Gun.cs",
               "DocumentMoniker": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Gun.cs",
               "RelativeDocumentMoniker": "Scripts\\Gun.cs",
               "ToolTip": "E:\\Godot proj\\3d_attempt_1\\Scripts\\Gun.cs",
               "RelativeToolTip": "Scripts\\Gun.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T17:27:04.174Z",
+              "WhenOpened": "2024-06-19T17:59:53.207Z",
               "EditorCaption": ""
             }
           ]

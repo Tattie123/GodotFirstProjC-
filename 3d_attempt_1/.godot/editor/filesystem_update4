@@ -6,3 +6,5 @@ res://Scripts/Timer.cs
 res://Scripts/Gun.cs
 res://Scripts/Player.cs
 res://Scripts/Enemy.cs
+res://Scripts/Node.cs
+res://Levels/TestLevel.cs

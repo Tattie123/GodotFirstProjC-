@@ -1,5 +1,6 @@
-[gd_scene load_steps=8 format=3 uid="uid://wftdftlwf4yy"]
+[gd_scene load_steps=9 format=3 uid="uid://wftdftlwf4yy"]
 
+[ext_resource type="Script" path="res://Levels/TestLevel.cs" id="1_aei60"]
 [ext_resource type="PackedScene" uid="uid://2oeqblnv7p3r" path="res://Scenes/Player.tscn" id="1_wnojg"]
 [ext_resource type="PackedScene" uid="uid://bs5h45ogjc0b0" path="res://Scenes/Enemy.tscn" id="2_qsnwe"]
 
@@ -23,6 +24,7 @@ polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
 [sub_resource type="PlaneMesh" id="PlaneMesh_iqvgb"]
 
 [node name="TestLevel" type="Node3D"]
+script = ExtResource("1_aei60")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(-0.866024, -0.433016, 0.250001, 0, 0.499998, 0.866026, -0.500003, 0.749999, -0.43301, 0, 0, 0)
@@ -40,10 +42,7 @@ size = Vector3(5.51373, 0.001, 5.16125)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.095, 0, 6.961)
 
 [node name="Enemy" parent="." instance=ExtResource("2_qsnwe")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.308, -0.176472, -2.661)
-
-[node name="Enemy" parent="Enemy" instance=ExtResource("2_qsnwe")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.80247, -0.176472, -2.661)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.176, 0)
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.7, 0)
@@ -52,3 +51,16 @@ navigation_mesh = SubResource("NavigationMesh_8d26p")
 [node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D"]
 transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 mesh = SubResource("PlaneMesh_iqvgb")
+
+[node name="Spawners" type="Node3D" parent="."]
+
+[node name="Spawn1" type="Node3D" parent="Spawners"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.997684, -8.95022)
+
+[node name="Spawn2" type="Node3D" parent="Spawners"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.08652, 8.8658)
+
+[node name="WaveTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+autostart = true

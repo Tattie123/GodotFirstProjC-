@@ -14,6 +14,11 @@ config/name="3d_attempt_1"
 run/main_scene="res://Levels/TestLevel.tscn"
 config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 
+[display]
+
+window/size/viewport_width=3440
+window/size/viewport_height=1440
+
 [dotnet]
 
 project/assembly_name="3d_attempt_1"
