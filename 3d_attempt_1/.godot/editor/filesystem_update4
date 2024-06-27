@@ -1,10 +1,7 @@
 res://Levels/TestLevel.tscn
-res://Scenes/Enemy.tscn
-res://Scenes/Player.tscn
-res://Scripts/Area3D.cs
-res://Scripts/Timer.cs
-res://Scripts/Gun.cs
-res://Scripts/Player.cs
-res://Scripts/Enemy.cs
-res://Scripts/Node.cs
 res://Levels/TestLevel.cs
+res://Scripts/Timer.cs
+res://Scripts/Enemy.cs
+res://Scripts/Gun.cs
+res://Scripts/Area3D.cs
+res://Scripts/Player.cs

@@ -7,9 +7,6 @@ public partial class TestLevel : Node3D
 
     float Spawnloc = GD.RandRange(1, 2);
     int counter = 0; 
-    enemy.count = Counter;
-
-
 
     public override void _Ready()
     {
