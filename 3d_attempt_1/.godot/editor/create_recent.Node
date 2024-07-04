@@ -1,9 +1,9 @@
 Timer
+PathFollow3D
+Path3D
+MeshInstance3D
 Node3D
 Node
-PathFollow3D
-MeshInstance3D
-Path3D
 NavigationAgent3D
 NavigationRegion3D
 CollisionPolygon3D
@@ -12,4 +12,3 @@ CSGBox3D
 CSGMesh3D
 CharacterBody3D
 RigidBody3D
-RayCast3D

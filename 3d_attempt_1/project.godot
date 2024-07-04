@@ -19,6 +19,7 @@ config/features=PackedStringArray("4.2", "C#", "Forward Plus")
 window/size/viewport_width=3440
 window/size/viewport_height=1440
 window/size/mode=4
+window/size/initial_position_type=2
 
 [dotnet]
 

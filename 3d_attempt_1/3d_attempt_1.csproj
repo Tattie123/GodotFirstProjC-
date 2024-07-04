@@ -7,6 +7,7 @@
     <RootNamespace>d_attempt_1</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="Levels\" />
     <Folder Include="Scenes\" />
   </ItemGroup>
 </Project>
