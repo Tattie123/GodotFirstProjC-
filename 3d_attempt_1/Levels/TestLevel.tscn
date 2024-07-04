@@ -1,8 +1,9 @@
-[gd_scene load_steps=9 format=3 uid="uid://wftdftlwf4yy"]
+[gd_scene load_steps=10 format=3 uid="uid://wftdftlwf4yy"]
 
 [ext_resource type="Script" path="res://Scripts/TestLevel.cs" id="1_465gf"]
 [ext_resource type="PackedScene" uid="uid://2oeqblnv7p3r" path="res://Scenes/Player.tscn" id="1_wnojg"]
 [ext_resource type="PackedScene" uid="uid://bs5h45ogjc0b0" path="res://Scenes/Enemy.tscn" id="2_qsnwe"]
+[ext_resource type="PackedScene" uid="uid://gkb5qqwnwqbw" path="res://Scenes/Enemy2.tscn" id="4_5k4hp"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_h17o5"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -42,9 +43,6 @@ size = Vector3(5.51373, 0.001, 5.16125)
 [node name="Player" parent="." instance=ExtResource("1_wnojg")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.095, 0, 6.961)
 
-[node name="Enemy" parent="." instance=ExtResource("2_qsnwe")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.176, 0)
-
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.7, 0)
 navigation_mesh = SubResource("NavigationMesh_8d26p")
@@ -56,5 +54,8 @@ mesh = SubResource("PlaneMesh_iqvgb")
 [node name="MobTimer" type="Timer" parent="."]
 wait_time = 0.5
 autostart = true
+
+[node name="ZombieWalks" parent="." instance=ExtResource("4_5k4hp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 3, -8)
 
 [connection signal="timeout" from="MobTimer" to="." method="Onmobtimertimeout"]
