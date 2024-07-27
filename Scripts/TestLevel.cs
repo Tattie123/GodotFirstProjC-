@@ -10,10 +10,6 @@ public partial class TestLevel : Node3D
     public Enemy enemy;
 
     public int enemycount;
-
-    // This method is called when the Shot event is triggered.
-    // It instantiates a new Enemy object from a PackedScene and adds it as a child to the current TestLevel node.
-    // The enemy count is incremented and the current enemy count is printed to the console.
     public void Shot()
     {
         // Load the PackedScene of the Enemy object.
