@@ -4,8 +4,6 @@ using System.Security.Cryptography.X509Certificates;
 
 public partial class Player : CharacterBody3D
 {
-
-
 	//Variable declerations (of war)
 	public const float Speed = 5.0f;
 	public const float CrouchedSpeed = 2.0f;
@@ -17,8 +15,6 @@ public partial class Player : CharacterBody3D
 	public float gravity = ProjectSettings.GetSetting("physics/3d/default_gravity").AsSingle();
 
 	private Camera3D camera;
-
-
 
 	//Functions
 	public override void _Ready()
@@ -102,8 +98,6 @@ public partial class Player : CharacterBody3D
 		Velocity = velocity;
 		MoveAndSlide();
 	}
-
-
 
 	//Mouse look Function
 
